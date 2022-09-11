@@ -1,0 +1,12 @@
+<li *ngIf="user" class="user-item">
+  <button class="name">
+    <div class="user-detail">
+      <h3>{{ user.name }}</h3>
+      <p>{{ user.username }}</p>
+      <div class="user-detail-flex">
+        <p>{{ user.address.city }}</p>
+        <p>{{ user.company.name }}</p>
+      </div>
+    </div>
+  </button>
+</li>
