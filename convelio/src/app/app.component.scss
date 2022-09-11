@@ -1,6 +1,8 @@
+@import "../styles.scss";
+
 h1 {
-  color: #003f9a;
-  font-family: Arial, Helvetica, sans-serif;
+  color: $color-primary;
+  font-family: $font-primary;
   font-size: 64px;
   display: flex;
   justify-content: center;

@@ -1,4 +1,6 @@
-  li.user-item {
+@import "../../styles.scss";
+ 
+ li.user-item {
     list-style: none;
     padding: 8px 0px;
     font: arial;
@@ -7,14 +9,18 @@
   }
 
   button.name {
-    background-color: #2871cc;
+    background-color: $color-secondary;
     color: white;
     border-radius: 8px;
     padding: 8px 12px;
     cursor: pointer;
     width: 60%;
-    border: 4px solid	#2871cc;
-        margin-bottom: 40px;
+    border: 4px solid	$color-secondary;
+    margin-bottom: 40px;
+    &:hover {
+      background-color: $color-ternary;
+      border-color: $color-ternary;
+    }
   }
 
   div.user-detail {
